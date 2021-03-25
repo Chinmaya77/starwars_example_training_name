@@ -8,9 +8,16 @@
   },
   "devDependencies": {
     "chai": "4.3.4",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
     "mocha": "8.3.2"
   },
+
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
   "scripts": {
+    "commit": "git-cz",
     "test": "mocha src/index.test.js -w"
   },
   "repository": {
