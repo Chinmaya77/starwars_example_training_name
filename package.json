@@ -1,27 +1,30 @@
 {
   "name": "starwars_example_training_name",
   "version": "1.0.0",
-  "description": "get names of starwars randomly",
+  "description": "random names",
   "main": "src/index.js",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "8.3.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chinmaya77/starwars_example_training_name.git"
   },
   "keywords": [
-    "random",
     "star",
     "wars"
   ],
   "author": "Chinmaya M N <chinmaya.mn@robosoftin.com> (http://chinmayamn.com/)",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chinmaya77/starwars_example_training_name/issues"
   },
-  "homepage": "https://github.com/Chinmaya77/starwars_example_training_name#readme",
-  "dependencies": {
-    "unique-random-array": "2.0.0"
-  }
+  "homepage": "https://github.com/Chinmaya77/starwars_example_training_name#readme"
 }
