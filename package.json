@@ -1,0 +1,27 @@
+{
+  "name": "starwars_example_training_name",
+  "version": "1.0.0",
+  "description": "get names of starwars randomly",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chinmaya77/starwars_example_training_name.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Chinmaya M N <chinmaya.mn@robosoftin.com> (http://chinmayamn.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chinmaya77/starwars_example_training_name/issues"
+  },
+  "homepage": "https://github.com/Chinmaya77/starwars_example_training_name#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
